@@ -1,0 +1,50 @@
+*{
+  text-align: center;
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+}
+div{
+  height: 100vh;
+  width: 100vw;
+  background-color: #7FFFD5;
+}
+@media screen and (max-width:1440px){
+  div{
+  background-color: rgb(32,139,33);
+  
+}
+div::after{
+  content: "Screen size:1440px";
+}
+}
+
+@media screen and (max-width:1024px){
+  div{
+  background-color: rgb(177,136,47);
+  
+}
+div::after{
+  content: "Screen size:1024px";
+}
+}
+
+@media screen and (max-width:768px){
+  div{
+  background-color: #75fbfd;
+  
+}
+div::after{
+  content: "Screen size:768px";
+}
+}
+
+@media screen and (max-width:425px){
+  div{
+  background-color: rgb(202,49,66);
+  
+}
+div::after{
+  content: "Screen size:425px";
+}
+}
